@@ -1,0 +1,40 @@
+baseURL: https://aigeoo.github.io/blog
+languageCode: ar
+title: مدونة يوسف
+theme: mini
+
+defaultContentLanguage: ar
+
+hasCJKLanguage: true
+permalinks:
+  posts: /posts/:slug/
+
+paginate: 7
+
+markup:
+  highlight:
+    guessSyntax: true
+    style: emacs
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
+
+social:
+  github: https://github.com/aigeoo
+  twitter: https://twitter.com/aigeo_
+
+params:
+  author: يوسف
+  bio: مخترق, مطور, طالب علم
+  description: A specialized blog bridging cybersecurity and programming expertise
+  showToc: true
+  showPowerBy: false
+  math: false
+  enableTwitterCard: true
+  enableShare: true
+  hiddenPostSummaryInHomePage: true
+  copyright: '© حقوق النشر محفوظة 🕸 2024'

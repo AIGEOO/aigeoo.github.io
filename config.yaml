@@ -30,7 +30,7 @@ social:
 params:
   author: يوسف
   bio: مخترق, مطور, طالب علم
-  description: A specialized blog bridging cybersecurity and programming expertise
+  description: مدونة شخصية متخصصة في البرمجة والامن السيبراني
   showToc: true
   showPowerBy: false
   math: false
